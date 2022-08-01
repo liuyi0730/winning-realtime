@@ -1,0 +1,4 @@
+部署说明:
+1.在windows开发环境中，分别配置mysql_source.properties，mysql_target.properties对的用户名与密码信息；
+2.在linux服务器下：/opt/module/realtime/myDB/的目录下配置:mysql_source.properties，mysql_target.properties分别配置源端与目标端数据库的用户名，密码等信息；
+3.如要修改linux路径，需要在ODS下每个job的filePath路径做修改；HikariUtil的filePath路径也要做修改；
